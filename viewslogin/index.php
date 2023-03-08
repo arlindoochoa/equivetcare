@@ -14,7 +14,7 @@
 			</div>
 
 			<div class="mb-3 p-2">
-			  	<label><h4 class="firstcolor">Sign in Arlindo</h4></label> 
+			  	<label><h4 class="firstcolor">Sign in</h4></label> 
 			</div>
 
 			<div class="mb-3">
