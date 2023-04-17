@@ -53,7 +53,7 @@
 		</div>
 
 		<div class="row d-flex justify-content-center p-2 mb-3">
-			<button type="submit" id="firstbutton" class="btn btn-md" name="registerpetowner"> Register</button>
+			<a href="subscription.php" type="submit" id="firstbutton" class="btn btn-md" name="registerpetowner"> Register</a>
 		</div>
 	</form>
 

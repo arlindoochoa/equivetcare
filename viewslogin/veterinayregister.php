@@ -100,7 +100,7 @@
 
 
 	<div class="row d-flex justify-content-center p-4 mb-4">
-  <button type="submit" id="firstbutton" class="btn btn-md" name="registerveterinary"> Register</button>
+  <a href="subscriptionvet.php" type="submit" id="firstbutton" class="btn btn-md" name="registerveterinary"> Register</a>
 	</div>
 </form>
 </div>

@@ -202,3 +202,66 @@ document.addEventListener( 'DOMContentLoaded', function () {
   } );
   splide.mount();
 } );
+
+
+document.addEventListener( 'DOMContentLoaded', function () {
+  var splide = new Splide( '#medicines', {
+    fixedWidth  : 150,
+    fixedHeight : 150,
+    gap         : 10,
+    rewind      : true,
+    pagination  : false,
+    isNavigation: true,
+    pauseOnFocus: true,
+    type   : 'loop',
+    perPage: 3,
+    lazyLoad:'false',
+    drag   : 'free',
+    autoplay: 'start',
+    focus  : 'center',
+    arrows    : false,
+  } );
+  splide.mount();
+} );
+
+
+document.addEventListener( 'DOMContentLoaded', function () {
+  var splide = new Splide( '#treatment', {
+    fixedWidth  : 150,
+    fixedHeight : 150,
+    gap         : 10,
+    rewind      : true,
+    pagination  : false,
+    isNavigation: true,
+    pauseOnFocus: true,
+    type   : 'loop',
+    perPage: 3,
+    lazyLoad:'false',
+    drag   : 'free',
+    autoplay: 'start',
+    focus  : 'center',
+    arrows    : false,
+  } );
+  splide.mount();
+} );
+
+
+document.addEventListener( 'DOMContentLoaded', function () {
+  var splide = new Splide( '#vaccines', {
+    fixedWidth  : 150,
+    fixedHeight : 150,
+    gap         : 10,
+    rewind      : true,
+    pagination  : false,
+    isNavigation: true,
+    pauseOnFocus: true,
+    type   : 'false',
+    perPage: 3,
+    lazyLoad:'false',
+    drag   : 'free',
+    autoplay: 'start',
+    focus  : 'center',
+    arrows    : false,
+  } );
+  splide.mount();
+} );

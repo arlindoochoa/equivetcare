@@ -24,10 +24,10 @@
 <!-- NOTIFICATION -->
 <!-- NOTIFICATION -->
 <div class="d-flex p-2">
-    <div class="d-flex p-2">
+    <div class="d-flex">
           <ul class="notification-drop">
             <li class="item">
-                  <img src="../img/notificationicon.svg" alts="" class="img-fluid" width="25" height="25">
+                  <img src="../img/notificationicon.svg" alts="" class="img-fluid" width="20" height="20">
               <span class="btn__badge pulse-button ">2</span>     
               <ul>
               <a href="appointmentrequest.php"><li><img src="../img/iconinfo.svg" alt="" style="width: 20px;"> Your appointment with Arlindo Ochoa must be approved or denied.</li></a>
@@ -39,10 +39,10 @@
           </ul>
     </div>
 
-    <div class="d-flex p-2">
+    <div class="d-flex">
           <ul class="notification-drop">
               <li class="item">
-                <img src="../img/requesticon.svg" alt="" class="img-fluid" width="25" height="25">
+                <img src="../img/requesticon.svg" alt="" class="img-fluid" width="20" height="20">
               <span class="btn__badge pulse-button ">2</span>     
               <ul>
               <a href="appointmentrequest.php"><li><img src="../img/iconinfo.svg" alt="" style="width: 20px;"> Your appointment with Arlindo Ochoa must be approved or denied.</li></a>
@@ -70,7 +70,7 @@
 
 <div class="offcanvas offcanvas-start shadow" data-bs-scroll="true" tabindex="-1" id="offcanvasNavbarLight" aria-labelledby="offcanvasNavbarLightLabel">
             <div class="offcanvas-header">
-              <div class="offcanvas-title" id="offcanvasNavbarLightLabel"><a href="main.php"><img src="../img/equivetcare.png" class="img-fluid" id="logo"></a></div>
+              <div class="offcanvas-title" id="offcanvasNavbarLightLabel"><a href="mainvet.php"><img src="../img/equivetcare.png" class="img-fluid" id="logo"></a></div>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">

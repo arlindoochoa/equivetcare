@@ -12,12 +12,9 @@
 
 
       <div class="container col-md-6 p-2">
-            <h4 class="heading-section firstcolor p-2 text-center">Fomr Virtual Exam Result</h4>  
+            <h4 class="heading-section firstcolor p-2 text-center">Form Virtual Exam Result</h4>  
       </div>
 
-
-
-      
 <!-- VIRTUAL EXAMINATION RESULTS -->
 <!-- VIRTUAL EXAMINATION RESULTS -->
 <!-- VIRTUAL EXAMINATION RESULTS -->
@@ -243,22 +240,50 @@
                     </ul>
                   </div>
                 </section>
-              </div>  
+</div>  
 
 
 
-<div class="form-floating mb-3">
-    <select class="form-select" id="floatingSelect" aria-label="Floating label select example" required>
-      <option selected disabled value="">Please select follow-up care required</option>
-      <option value="1">1 Week</option>
-      <option value="2">2 Week</option>
-      <option value="3">3 Week</option>
-      <option value="4">4 Week</option>
-      
-    </select>
-    <div class="invalid-feedback">Please select an option</div>
-    <label for="floatingSelect">Select</label>
+<div class="col-md-12">
+      <h5 class="heading-section mb-3 firstcolor">Please select follow-up care required</h5>
+  </div>
+
+<div class="container row mb-3">
+    <div class="form-floating col-md-6">
+        <select class="form-select" id="floatingSelect" aria-label="Floating label select example" required>
+          <option selected disabled value="">Please select week or day</option>
+          <option value="weeek">Week</option>
+          <option value="day">Day</option>
+        </select>  
+        <div class="invalid-feedback">Please select an option</div>
+        <label for="floatingSelect">Select</label>
+    </div>
+    <div class="form-floating col-md-6">
+        <select class="form-select" id="floatingSelect" aria-label="Floating label select example" required>
+          <option selected disabled value="">Please select number</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+        </select>
+        <div class="invalid-feedback">Please select an option</div>
+        <label for="floatingSelect">Select</label>
+    </div>
 </div>
+
 
 <div class="mb-3">
         <label for="exampleDataList" class="form-label">Do you provide virtual or in-person care, or both?</label>

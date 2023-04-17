@@ -126,9 +126,65 @@
 
 <div class="container col-md-6 p-2"> 
     <h4 class="justify-content-start firstcolor"> Last Year </h4>
-	<p class="justify-content-start firstcolor"> Appointment</p>
 </div>
 
+
+
+<div class="container col-md-6 p-2"> 
+	<p class="justify-content-start firstcolor"> Vaccines</p>
+</div>
+
+<div class="container col-md-3">
+	<div class="card work" id="appointments">
+		<a href="#" style="text-decoration:none; color:black;" data-bs-toggle="modal" data-bs-target="#vaccinemodal" data-bs-whatever="@mdo">
+			<div class="card-body">
+				<div class="card-title">
+				<p class="card-text text-center"><img src="../img/vaccination.png" alt="" class="img-fluid"></p>
+				</div>
+			</div>
+		</a>
+	</div>
+</div> 
+
+
+<div class="container col-md-6 p-2"> 
+	<p class="justify-content-start firstcolor"> Medicines</p>
+</div>
+
+<div class="container col-md-3">
+	<div class="card work" id="appointments">
+		<a href="#" style="text-decoration:none; color:black;" data-bs-toggle="modal" data-bs-target="#medicinesmodal" data-bs-whatever="@mdo">
+			<div class="card-body">
+				<div class="card-title">
+				<p class="card-text text-center"><img src="../img/pills.png" alt="" class="img-fluid"></p>
+				</div>
+			</div>
+		</a>
+	</div>
+</div> 
+
+
+<div class="container col-md-6 p-2"> 
+	<p class="justify-content-start firstcolor"> Treatment / Surgery</p>
+</div>
+
+<div class="container col-md-3">
+	<div class="card work" id="appointments">
+		<a href="#" style="text-decoration:none; color:black;" data-bs-toggle="modal" data-bs-target="#treatmentmodal" data-bs-whatever="@mdo">
+			<div class="card-body">
+				<div class="card-title">
+				<p class="card-text text-center"><img src="../img/Treatmentsurgery.png" alt="" class="img-fluid"></p>
+				</div>
+			</div>
+		</a>
+	</div>
+</div> 
+
+
+
+<div class="container col-md-6"> 
+	<p class="justify-content-start firstcolor"> Appointment</p>
+</div>
 
 
 <div class="container col-md-6 mb-3 p-3">
@@ -137,8 +193,6 @@
 		<ul class="splide__list">
 			
 		  <li class="splide__slide">
-
-			
 					  <div class="card work" id="appointments">
 									<a href="virtualexam4.php" style="text-decoration:none; color:black;">
 									<div class="card-body">
@@ -177,11 +231,10 @@
 									</a>
 						</div>
 		  </li>
-
 		</ul>
 	  </div>
 	</section>
-  </div> 
+</div> 
 
   
 <div class="container col-md-6 p-2"> 
@@ -236,7 +289,7 @@
 
 
 
-  <div class="container col-md-6 p-2"> 
+<div class="container col-md-6 p-2"> 
 	<p class="justify-content-start firstcolor"> Labs</p>
 </div>
 
@@ -261,7 +314,7 @@
 									<a href="virtualexam4.php" style="text-decoration:none; color:black;">
 									<div class="card-body">
 									<div class="card-title">
-										<p class="card-text"><svg height="30" viewBox="-64 0 512 512" width="30" xmlns="http://www.w3.org/2000/svg"><path d="m384 64v416c0 17.679688-14.320312 32-32 32h-320c-17.679688 0-32-14.320312-32-32v-416c0-17.679688 14.320312-32 32-32h320c17.679688 0 32 14.320312 32 32zm0 0" fill="#cfd8dc"/><path d="m128 160c-35.296875 0-64-28.703125-64-64v-64h256v64c0 35.296875-28.703125 64-64 64zm0 0" fill="#b0bec5"/><path d="m256 128h-128c-17.679688 0-32-14.320312-32-32v-64h48v-32h96v32h48v64c0 17.679688-14.320312 32-32 32zm0 0" fill="#26a69a"/><path d="m176 320h32v-48h48v-32h-48v-48h-32v48h-48v32h48zm0 0" fill="#e64a19"/><g fill="#fff"><path d="m64 368h32v32h-32zm0 0"/><path d="m128 368h192v32h-192zm0 0"/><path d="m64 432h32v32h-32zm0 0"/><path d="m128 432h192v32h-192zm0 0"/><path d="m144 64h32v32h-32zm0 0"/><path d="m208 64h32v32h-32zm0 0"/></g></svg>LABS</p>
+	 									<p class="card-text"><svg height="30" viewBox="-64 0 512 512" width="30" xmlns="http://www.w3.org/2000/svg"><path d="m384 64v416c0 17.679688-14.320312 32-32 32h-320c-17.679688 0-32-14.320312-32-32v-416c0-17.679688 14.320312-32 32-32h320c17.679688 0 32 14.320312 32 32zm0 0" fill="#cfd8dc"/><path d="m128 160c-35.296875 0-64-28.703125-64-64v-64h256v64c0 35.296875-28.703125 64-64 64zm0 0" fill="#b0bec5"/><path d="m256 128h-128c-17.679688 0-32-14.320312-32-32v-64h48v-32h96v32h48v64c0 17.679688-14.320312 32-32 32zm0 0" fill="#26a69a"/><path d="m176 320h32v-48h48v-32h-48v-48h-32v48h-48v32h48zm0 0" fill="#e64a19"/><g fill="#fff"><path d="m64 368h32v32h-32zm0 0"/><path d="m128 368h192v32h-192zm0 0"/><path d="m64 432h32v32h-32zm0 0"/><path d="m128 432h192v32h-192zm0 0"/><path d="m144 64h32v32h-32zm0 0"/><path d="m208 64h32v32h-32zm0 0"/></g></svg>LABS</p>
 									</div>
 									</div>
 									</a>
@@ -281,11 +334,11 @@
 		</ul>
 	  </div>
 	</section>
-  </div> 
+</div> 
+
 
 
 <form method="post">
-
 <div class="container col-md-6">
 <div class="p-3 mb-3 row">
 	<button id="firstbutton" name="prueba" class="btn btn-md p-2" type="submit"> Approve</button>
@@ -293,11 +346,95 @@
 </div>
 </div>
 </form>
-
-
-
-    </div>
+</div>
 </section>
+
+
+
+<!-- MODAL VACCINES -->
+<!-- MODAL VACCINES -->
+<!-- MODAL VACCINES -->
+
+
+<div class="modal fade" id="vaccinemodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"> <img src="../img/equivetcare.png" class="img-fluid" id="logo"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <p style="color:#6eadb8 ;"> <img src="../img/vaccination.png" class="img-fluid" alt="" width="50"> Vaccines:</p>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+                <li class="list-group-item">A fourth item</li>
+                <li class="list-group-item">And a fifth one</li>
+            </ul>
+        </div>
+  
+      </div>
+    </div>
+</div>
+
+
+
+<!-- MODAL MEDICINES -->
+<!-- MODAL MEDICINES -->
+<!-- MODAL MEDICINES -->
+
+
+<div class="modal fade" id="medicinesmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"> <img src="../img/equivetcare.png" class="img-fluid" id="logo"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <p style="color:#6eadb8 ;"> <img src="../img/pills.png" class="img-fluid" alt="" width="50"> Medicines:</p>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+                <li class="list-group-item">A fourth item</li>
+                <li class="list-group-item">And a fifth one</li>
+            </ul>
+        </div>
+  
+      </div>
+    </div>
+</div>
+
+
+
+<!-- MODAL TREATMENT -->
+<!-- MODAL TREATMENT -->
+<!-- MODAL TREATMENT -->
+
+
+<div class="modal fade" id="treatmentmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"> <img src="../img/equivetcare.png" class="img-fluid" id="logo"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <p style="color:#6eadb8 ;"> <img src="../img/treatmentsurgery.png" class="img-fluid" alt="" width="50"> Treatment / Surgery:</p>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+                <li class="list-group-item">A fourth item</li>
+                <li class="list-group-item">And a fifth one</li>
+            </ul>
+        </div>
+  
+      </div>
+    </div>
+</div>
 
 
 
@@ -313,9 +450,6 @@ echo ('<script>
 
 }
 ?>
-
-
-
 
 <?php include 'menubottomvet.php'; ?>
 <?php include 'filejs.php'; ?>
